@@ -32,7 +32,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Task Oriented Bootcamp passed with perfect Score.</li>
+        <li>Task Oriented Bootcamp passed with perfect Score</li>
         <li>Internship at Quera</li>
       </ul>
     ),
