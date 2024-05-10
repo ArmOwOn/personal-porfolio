@@ -6,19 +6,19 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "YOOM",
+    description: "minimalist ZOOM clone website using NextJS & Stream & Clerk",
+    image: "/images/projects/yoom.png",
+    gitUrl: "https://github.com/ArmOwOn/yoom",
+    previewUrl: "https://yoom-henna.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Brainwave",
     description: "Modern UI/UX website written in ReactJS and TailwindCSS",
     image: "/images/projects/modern-tailwind.png",
     gitUrl: "https://github.com/ArmOwOn/brainwave",
     previewUrl: "https://brainwave-ie5k9ixq7-armowons-projects.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "GPT-3 ArmOwOn",
-    description: "Modern UI/UX website written in ReactTS with custom CSS",
-    image: "/images/projects/modern-css.png",
-    gitUrl: "https://github.com/ArmOwOn/gpt3-armowon",
-    previewUrl: "https://gpt3-armowon.vercel.app/",
   },
   {
     id: 3,
@@ -38,11 +38,11 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "My portfolio",
-    description: "This is a website that you are using right now! written in NextJS",
-    image: "/images/projects/personal-portfolio.png",
-    gitUrl: "https://github.com/ArmOwOn/personal-portfolio",
-    previewUrl: "/",
+    title: "GPT-3 ArmOwOn",
+    description: "Modern UI/UX website written in ReactTS with custom CSS",
+    image: "/images/projects/modern-css.png",
+    gitUrl: "https://github.com/ArmOwOn/gpt3-armowon",
+    previewUrl: "https://gpt3-armowon.vercel.app/",
   },
 ];
 
